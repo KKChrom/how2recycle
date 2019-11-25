@@ -18,7 +18,8 @@ public class EnterDataActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_enter_data);
 
-        mNumberEditText = findViewById(R.id.number_input); // Get the number input
+        // Get the number input
+        mNumberEditText = findViewById(R.id.number_input);
     }
 
     public void launchInfoActivity(View view) {
