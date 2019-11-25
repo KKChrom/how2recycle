@@ -1,4 +1,4 @@
-package com.example.how2recycle;
+package org.jointheleague.how2recycle;
 
 import androidx.appcompat.app.AppCompatActivity;
 
