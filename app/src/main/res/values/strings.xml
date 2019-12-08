@@ -4,4 +4,11 @@
     <string name="number_input_hint">Enter the number here</string>
     <string name="enter_data_description">Find a number on your item inside a recycling symbol, like this:</string>
     <string name="number_example_description">An image of a recycling symbol with a thin wide 3 inside.</string>
+    <string name="info1">1- PETE -Polyethylene terephthalate\nThe easiest of plastics to recycle. Often used for soda bottles, water bottles and many common food packages. Is recycled into bottles and polyester fibers. Can put in everyday recycling bins</string>
+    <string name="info2">2 - HDPE - High Density Polyethylene\nMostly used for packaging detergents, bleach, milk containers, hair care products and motor oil. Is recycled into more bottles or bags.Can put in everyday recycling bins</string>
+    <string name="info3"></string>
+    <string name="info4"></string>
+    <string name="info5"></string>
+    <string name="info6"></string>
+
 </resources>
