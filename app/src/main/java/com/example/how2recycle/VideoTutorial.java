@@ -14,9 +14,10 @@ public class VideoTutorial extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_video_tutorial);
         VideoView videoview = findViewById(R.id.videotutorial);
-        String videoPath = "android.reosure://" +getPackageName() +"/" +R.raw.johncena;
+        String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.videoplayback;
         Uri uri = Uri.parse(videoPath);
         videoview.setVideoURI(uri);
+
         MediaController mediaController = new MediaController(this);
         videoview.setMediaController(mediaController);
         mediaController.setAnchorView(videoview);

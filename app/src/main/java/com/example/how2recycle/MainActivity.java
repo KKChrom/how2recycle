@@ -9,15 +9,25 @@ import android.widget.Button;
 import android.widget.VideoView;
 
 public class MainActivity extends AppCompatActivity {
-    private Button sender;
 
+    private Button sender;
     private Button videobutton;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        sender = findViewById(R.id.sender);
 
+        // Sends user to EnterDataActivity
+        sender = findViewById(R.id.sender);
+        sender.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                goEnterData();
+            }
+        });
+
+        // Sends user to tutorial
         videobutton = findViewById(R.id.videobutton);
         videobutton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -27,24 +37,17 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
-        sender.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                goEnterData();
-            }
-        });
     }
 
+    // Method sends user to the tutorial
     private void goTutorial() {
-        Intent intent = new Intent( this, VideoTutorial.class
-        );
+        Intent intent = new Intent( this, VideoTutorial.class);
         startActivity(intent);
     }
 
-    public void goEnterData()
-    {
-        Intent intent = new Intent( this,EnterDataActivity.class
-        );
+    // Mehods sends the user to EnterDataActivity
+    public void goEnterData() {
+        Intent intent = new Intent( this,EnterDataActivity.class);
         startActivity(intent);
     }
 
