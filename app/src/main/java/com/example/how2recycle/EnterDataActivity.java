@@ -2,9 +2,6 @@ package com.example.how2recycle;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.os.Bundle;
-
-public class EnterDataActivity extends AppCompatActivity {
 
 import android.content.Intent;
 import android.os.Bundle;
