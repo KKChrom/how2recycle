@@ -24,6 +24,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView"
         app:layout_constraintVertical_bias="1.0" />
 
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="186dp"
@@ -40,4 +41,14 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <Button
+        android:id="@+id/videobutton"
+        android:layout_width="119dp"
+        android:layout_height="79dp"
+        android:backgroundTint="#00BE1A1A"
+        android:text="Video"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sender" />
 </androidx.constraintlayout.widget.ConstraintLayout>
