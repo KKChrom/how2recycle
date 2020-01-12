@@ -9,7 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".VideoTutorial"></activity>
+
+        <activity android:name=".InfoActivity"
+            android:parentActivityName=".EnterDataActivity" />
+
+        <activity android:name=".VideoTutorial"
+            android:parentActivityName=".MainActivity">
+
+
+        </activity>
         <activity android:name=".EnterDataActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
