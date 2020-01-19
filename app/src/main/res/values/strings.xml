@@ -4,4 +4,5 @@
     <string name="number_input_hint">Enter the number here</string>
     <string name="enter_data_description">Find a number on your item inside a recycling symbol, like this:</string>
     <string name="number_example_description">An image of a recycling symbol with a thin wide 3 inside.</string>
+    <string name="infoi">i</string>
 </resources>

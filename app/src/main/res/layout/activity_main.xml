@@ -32,12 +32,27 @@
         android:layout_marginTop="100dp"
         android:layout_marginEnd="113dp"
         android:layout_marginBottom="30dp"
-        android:text="              How2Recycle"
+        android:text="How2Recycle"
         android:textAlignment="center"
-        android:textSize="28sp"
+        android:textSize="0sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/info_button"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/circle"
+        android:backgroundTint="#FFFFFF"
+        android:drawableBottom="@drawable/circle"
+        android:text="@string/infoi"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
