@@ -4,51 +4,44 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#DCFC88"
     tools:context=".MainActivity">
 
-    <Button
-        android:id="@+id/sender"
-        android:layout_width="119dp"
-        android:layout_height="79dp"
-        android:layout_marginStart="161dp"
-        android:layout_marginTop="121dp"
-        android:layout_marginEnd="162dp"
-        android:layout_marginBottom="342dp"
-        android:backgroundTint="#00BE1A1A"
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/start_app"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:text="Start"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/start_videotutorial"
         app:layout_constraintHorizontal_bias="0.483"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="1.0" />
-
+        app:layout_constraintTop_toBottomOf="@+id/header"
+        app:layout_constraintVertical_bias="0.04" />
 
     <TextView
-        android:id="@+id/textView"
-        android:layout_width="186dp"
-        android:layout_height="119dp"
+        android:id="@+id/header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginStart="112dp"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="40dp"
         android:layout_marginEnd="113dp"
-        android:layout_marginBottom="30dp"
-        android:text="              How2Recycle"
+        android:text="@string/app_name"
         android:textAlignment="center"
-        android:textSize="28sp"
+        android:textSize="50sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/videobutton"
-        android:layout_width="119dp"
-        android:layout_height="79dp"
-        android:backgroundTint="#00BE1A1A"
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/start_videotutorial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:text="Video"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/sender" />
+        app:layout_constraintHorizontal_bias="0.786"
+        app:layout_constraintStart_toEndOf="@id/start_app"
+        app:layout_constraintTop_toBottomOf="@+id/header"
+        app:layout_constraintVertical_bias="0.04" />
 </androidx.constraintlayout.widget.ConstraintLayout>
