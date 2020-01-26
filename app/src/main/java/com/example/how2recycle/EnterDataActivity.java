@@ -25,6 +25,7 @@ public class  EnterDataActivity extends AppCompatActivity {
         // Create the Intent and add the number input as an extra
         Intent intent = new Intent(this, InfoActivity.class);
         String number = mNumberEditText.getText().toString();
+        System.out.println(Integer.parseInt(number));
         intent.putExtra(EXTRA_RECYCLE_NUMBER, number);
         startActivity(intent);
     }
