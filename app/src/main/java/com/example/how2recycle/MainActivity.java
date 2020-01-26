@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
                 goEnterData();
             }
         });
-        ibutton.findViewById(R.id.info_button);
+        ibutton=findViewById(R.id.info_button);
         ibutton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

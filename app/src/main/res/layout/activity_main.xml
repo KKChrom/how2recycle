@@ -15,14 +15,21 @@
         android:layout_marginTop="121dp"
         android:layout_marginEnd="162dp"
         android:layout_marginBottom="342dp"
-        android:backgroundTint="#00BE1A1A"
         android:text="Start"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.483"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="1.0"/>
+
+
+        <TextView
+            android:text="i"
+            android:layout_height="20dp"
+            android:layout_width="20dp"
+            tools:ignore="MissingConstraints" />
+
+
 
     <TextView
         android:id="@+id/textView"
@@ -46,12 +53,16 @@
         android:layout_height="20dp"
         android:layout_marginEnd="5dp"
         android:layout_marginBottom="5dp"
+
         android:background="@drawable/circle"
-        android:backgroundTint="#FFFFFF"
-        android:drawableBottom="@drawable/circle"
-        android:text="@string/infoi"
+        android:backgroundTint="#47C8DD"
+        android:capitalize="none"
+        android:fontFamily="@font/abril_fatface"
+        android:text="i"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
         android:textColor="#FFFFFF"
-        android:textSize="20sp"
+        android:textSize="12sp"
+        android:textStyle="italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
