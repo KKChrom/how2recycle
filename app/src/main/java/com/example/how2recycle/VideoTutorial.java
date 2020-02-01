@@ -14,7 +14,7 @@ public class VideoTutorial extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_video_tutorial);
         VideoView videoview = findViewById(R.id.videotutorial);
-        String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.videoplayback;
+        String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.nokia;
         Uri uri = Uri.parse(videoPath);
         videoview.setVideoURI(uri);
 

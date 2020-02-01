@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
-        tools:ignore="GoogleAppIndexingWarning">
+        tools:ignore="GoogleAppIndexingWarning"
+        android:allowBackup="true"
+        android:fullBackupContent="true">
+        <activity android:name=".InfoActivity"/>
         <activity android:name=".VideoTutorial"/>
         <activity android:name=".EnterDataActivity" />
         <activity android:name=".MainActivity">
