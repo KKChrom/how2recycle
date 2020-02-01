@@ -4,4 +4,11 @@
     <string name="number_input_hint">Enter the number here</string>
     <string name="enter_data_description">Find a number on your item inside a recycling symbol, like this:</string>
     <string name="number_example_description">A recycling symbol with a 4 inside, captioned LDPE.</string>
+    <string name="infoi">i</string>
+    <string name="about1">  How2Recycle is an application that helps you identify different recyclable materials and how to recycle them. Not all materials are equal, believe it or not! Some materials like cardboard can be recycled in household recycling bins, while others, such as batteries or special plastics, must be taken to special centers. By inputting the recycling code(a number found on most recyclable items) into our app, the app informs you of information about the material as well as where to recycle it.</string>
+    <string name="about2">  How2Recycle was developed by Daniel Oviedo, Sam Marshak, and Rowan Law and supervised by Sebastian Troncoso. We are middle-high school computer science students from The League of Amazing Programmers in San Diego, CA. This app was our community group project, the final project before taking the Java Oracle Exam and graduating from the league.</string>
+    <string name="about_text_i">i</string>
+    <string name="video_text">Video</string>
+    <string name="start_text_button">Start</string>
+
 </resources>

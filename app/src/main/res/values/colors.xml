@@ -13,4 +13,7 @@
     <color name="colorSecondaryVariant">#018938</color>
     <color name="colorOnSecondary">#000</color>
 
+    <color name="infoColor">#34D2EB</color>
+
+
 </resources>
