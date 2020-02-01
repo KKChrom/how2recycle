@@ -6,8 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".VideoTutorial">
 
-    // Created a frame layout for the video of John Cena and
-    // a VideoView for Sam -- Testing tutorial for how2recycle
+
 
     <FrameLayout
         android:layout_width="match_parent"

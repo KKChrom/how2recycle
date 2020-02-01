@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">How2Recycle</string>
+    <string name="app_name">how2recycle</string>
     <string name="submit_data">Submit</string>
     <string name="number_input_hint">Enter the number here</string>
     <string name="enter_data_description">Find a number on your item inside a recycling symbol, like this:</string>

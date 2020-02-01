@@ -1,7 +1,7 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="Theme.How2Recycle" parent="Theme.MaterialComponents">
+    <style name="Theme.how2recycle" parent="Theme.MaterialComponents.DayNight">
 
         <!-- Original AppCompat attributes. -->
         <item name="colorPrimary">@color/colorPrimary</item>
