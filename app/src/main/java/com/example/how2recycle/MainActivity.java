@@ -32,6 +32,13 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        Button ibutton=findViewById(R.id.info_button);
+        ibutton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                goAboutAppActivity();
+            }
+        });
 
     }
 
@@ -44,6 +51,11 @@ public class MainActivity extends AppCompatActivity {
     // Method sends user to EnterDataActivity
     public void goEnterData() {
         Intent intent = new Intent( this,EnterDataActivity.class);
+        startActivity(intent);
+    }
+
+    public void goAboutAppActivity() {
+        Intent intent = new Intent(this, AboutAppActivity.class);
         startActivity(intent);
     }
 
