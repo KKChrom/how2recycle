@@ -39,6 +39,7 @@ public class InfoActivity extends AppCompatActivity {
 
             case "5":
                 path = "raw/rfive.png";
+
                 break;
 
             case "6":
