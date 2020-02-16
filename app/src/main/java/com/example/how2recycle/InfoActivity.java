@@ -2,10 +2,12 @@ package com.example.how2recycle;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.nfc.Tag;
 import android.os.Bundle;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.view.View;
 import android.widget.Toast;
 
 public class InfoActivity extends AppCompatActivity {
@@ -58,6 +60,11 @@ public class InfoActivity extends AppCompatActivity {
 
         }
 
+    }
+
+    public void launchMainActivity(View view) {
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
     }
 
 }
