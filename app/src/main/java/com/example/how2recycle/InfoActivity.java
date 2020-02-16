@@ -55,10 +55,6 @@ public class InfoActivity extends AppCompatActivity {
                 imageView.setImageResource(R.drawable.rseven);
                 textView.setText("This is the name of other plastics(Acrylic, Nylon, Polycarbonate, and Polylactic Acid) which are used in a variety of different objects. Some of the materials inside of the seven category are recyclable. Check to see if it is with your local recycling center.");
                 break;
-            default:
-
-                Toast.makeText(getApplicationContext(),"Need values between 1 and 7", Toast.LENGTH_SHORT).show();
-                break;
 
         }
 
