@@ -10,7 +10,7 @@
         <item name="colorPrimaryVariant">#2d13e0</item>
         <item name="colorSecondaryVariant">#018938</item>
         <item name="colorOnPrimary">#fff</item>
-        <item name="colorOnSecondary">#000</item>
+        <item name="colorOnSecondary">#fff</item>
     </style>
 
 </resources>

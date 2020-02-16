@@ -13,8 +13,7 @@ public class AboutAppActivity extends AppCompatActivity {
 
        if (getSupportActionBar() != null) {
            getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        }
-
+       }
 
     }
 
