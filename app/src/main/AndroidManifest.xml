@@ -12,17 +12,47 @@
         tools:ignore="GoogleAppIndexingWarning"
         android:allowBackup="true"
         android:fullBackupContent="true">
-        <activity android:name=".AboutAppActivity"/>
-        <activity android:name=".InfoActivity"/>
-        <activity android:name=".VideoTutorial"/>
-        <activity android:name=".EnterDataActivity" />
+
         <activity android:name=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=
+                    "com.example.how2recycle.MainActivity" />
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
 
             </intent-filter>
 
+        </activity>
+
+        <activity android:name=".EnterDataActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=
+                    "com.example.how2recycle.MainActivity" />
+        </activity>
+
+        <activity android:name=".InfoActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=
+                    "com.example.how2recycle.MainActivity" />
+        </activity>
+
+        <activity android:name=".VideoTutorial">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=
+                    "com.example.how2recycle.MainActivity" />
+        </activity>
+
+        <activity android:name=".AboutAppActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=
+                    "com.example.how2recycle.MainActivity" />
         </activity>
 
         <meta-data
