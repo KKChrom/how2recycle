@@ -14,50 +14,24 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        // Sends user to EnterDataActivity
-        Button mStartApp = findViewById(R.id.start_app);
-        mStartApp.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                goEnterData();
-            }
-        });
-
-        // Sends user to tutorial
-        Button mVideoButton = findViewById(R.id.start_videotutorial);
-        mVideoButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-               goTutorial();
-            }
-        });
-
-        Button ibutton=findViewById(R.id.info_button);
-        ibutton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                goAboutAppActivity();
-            }
-        });
-
-    }
-
-    // Method sends user to VideoTutorial
-    private void goTutorial() {
-        Intent intent = new Intent( this, VideoTutorial.class);
-        startActivity(intent);
     }
 
     // Method sends user to EnterDataActivity
-    public void goEnterData() {
+    public void goEnterData(View view) {
         Intent intent = new Intent( this,EnterDataActivity.class);
         startActivity(intent);
     }
 
-    public void goAboutAppActivity() {
-        Intent intent = new Intent(this, AboutAppActivity.class);
+    // Method sends user to VideoTutorial
+    public void goTutorial(View view) {
+        Intent intent = new Intent( this, VideoTutorial.class);
         startActivity(intent);
     }
 
+    // Method sends user to AboutAppActivity
+    public void goAboutApp(View view) {
+        Intent intent = new Intent(this, AboutAppActivity.class);
+        startActivity(intent);
+    }
 
 }
