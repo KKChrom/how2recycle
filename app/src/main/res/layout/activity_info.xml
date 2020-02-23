@@ -14,7 +14,8 @@
         android:fillViewport="false"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        >
 
         <LinearLayout
             android:id="@+id/relative_view"
@@ -39,11 +40,38 @@
             <TextView
                 android:id="@+id/desc"
                 android:layout_width="421dp"
-                android:layout_height="421dp"
+                android:layout_height="wrap_content"
                 android:textAlignment="center"
+                android:paddingHorizontal="10dp"
                 android:textColor="#000000"
                 android:textSize="20sp" />
 
+            <LinearLayout
+                android:id="@+id/two_images"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/left_image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:paddingHorizontal="40dp"
+                    tools:srcCompat="@tools:sample/avatars" />
+
+                <ImageView
+                    android:id="@+id/right_image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:paddingHorizontal="40dp"
+                    tools:srcCompat="@tools:sample/avatars" />
+
+            </LinearLayout>
 
         </LinearLayout>
     </ScrollView>
