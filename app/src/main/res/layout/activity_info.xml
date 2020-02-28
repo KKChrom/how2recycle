@@ -84,9 +84,9 @@
         android:layout_marginBottom="16dp"
         android:clickable="true"
         android:onClick="launchMainActivity"
-        app:backgroundTint="#000"
+        app:backgroundTint="#1840ff"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:srcCompat="@drawable/ic_done_black_24dp" />
+        app:srcCompat="@drawable/ic_done_white_24dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -17,6 +17,7 @@ public class InfoActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_info);
+
         ImageView imageView = findViewById(R.id.imageView);
         ImageView leftView = findViewById(R.id.left_image);
         ImageView rightView = findViewById(R.id.right_image);
