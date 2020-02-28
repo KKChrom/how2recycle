@@ -26,7 +26,7 @@ public class InfoActivity extends AppCompatActivity {
 
         String val = getIntent().getStringExtra(EXTRA_RECYCLE_NUMBER);
         switch (val) {
-            case ("1"):
+            case "1":
                 imageView.setImageResource(R.drawable.resincode_1);
                 leftView.setImageResource(R.drawable.oneone);
                 rightView.setImageResource(R.drawable.onetwo);
