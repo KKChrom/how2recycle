@@ -27,7 +27,7 @@ public class InfoActivity extends AppCompatActivity {
         String val = getIntent().getStringExtra(EXTRA_RECYCLE_NUMBER);
         switch (val) {
             case ("1"):
-                imageView.setImageResource(R.drawable.rone);
+                imageView.setImageResource(R.drawable.resincode_1);
                 leftView.setImageResource(R.drawable.oneone);
                 rightView.setImageResource(R.drawable.onetwo);
                 textView.setText(R.string.info1);
@@ -35,41 +35,41 @@ public class InfoActivity extends AppCompatActivity {
 
             case "2":
                 textView.setText(R.string.info2);
-                imageView.setImageResource(R.drawable.rtwo);
+                imageView.setImageResource(R.drawable.resincode_2);
                 leftView.setImageResource(R.drawable.twoone);
                 rightView.setImageResource(R.drawable.twotwo);
                 break;
 
             case "3":
-                imageView.setImageResource(R.drawable.rthree);
+                imageView.setImageResource(R.drawable.resincode_3);
                 leftView.setImageResource(R.drawable.threeone);
                 rightView.setImageResource(R.drawable.threetwo);
                 textView.setText(R.string.info3);
                 break;
 
             case "4":
-                imageView.setImageResource(R.drawable.rfour);
+                imageView.setImageResource(R.drawable.resincode_4);
                 leftView.setImageResource(R.drawable.fourone);
                 rightView.setImageResource(R.drawable.fourtwo);
                 textView.setText(R.string.info4);
                 break;
 
             case "5":
-                imageView.setImageResource(R.drawable.rfive);
+                imageView.setImageResource(R.drawable.resincode_5);
                 leftView.setImageResource(R.drawable.fiveone);
                 rightView.setImageResource(R.drawable.fivetwo);
                 textView.setText(R.string.info5);
                 break;
 
             case "6":
-                imageView.setImageResource(R.drawable.rsix);
+                imageView.setImageResource(R.drawable.resincode_6);
                 leftView.setImageResource(R.drawable.sixone);
                 rightView.setImageResource(R.drawable.sixtwo);
                 textView.setText(R.string.info6);
                 break;
 
             case "7":
-                imageView.setImageResource(R.drawable.rseven);
+                imageView.setImageResource(R.drawable.resincode_7);
                 leftView.setImageResource(R.drawable.sevenone);
                 rightView.setImageResource(R.drawable.seventwo);
                 textView.setText(R.string.info7);

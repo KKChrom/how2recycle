@@ -1,2 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <!-- Customize your theme here. -->
+    <color name="colorPrimary">#1840ff</color>
+    <color name="colorSecondary">#00ff22</color>
+
+    <!-- New MaterialComponents attributes. -->
+    <color name="colorPrimaryVariant">#2D13E0</color>
+    <color name="colorSecondaryVariant">#018938</color>
+    <color name="colorOnPrimary">#fff</color>
+    <color name="colorOnSecondary">#000</color>
+</resources>
