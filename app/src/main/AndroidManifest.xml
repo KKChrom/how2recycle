@@ -14,10 +14,6 @@
         android:fullBackupContent="true">
 
         <activity android:name=".MainActivity">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value=
-                    "com.example.how2recycle.MainActivity" />
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -38,7 +34,7 @@
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=
-                    "com.example.how2recycle.MainActivity" />
+                    "com.example.how2recycle.EnterDataActivity" />
         </activity>
 
         <activity android:name=".VideoTutorial">

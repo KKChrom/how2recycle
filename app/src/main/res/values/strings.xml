@@ -10,7 +10,7 @@
     <string name="enterdata_description">Find a number on your item inside a recycling symbol, like this:</string>
     <string name="enterdata_number_example_description">A recycling symbol with a 4 inside, captioned LDPE.</string>
 
-    <string name="aboutapp_title">About How2Recycle</string>
+    <string name="aboutapp_title">About UpCycle</string>
     <string name="info1">Polyethylene terephthalate(PETE/PET) is the material that is used in the packaging of foods and beverages. This material is the easiest to recycle, and can be thrown right into your recycling bin.</string>
     <string name="info2">High Density polyethylene(HDPE) is used in bottles, cups. milk jugs, piping, plastic lumber and many more day to day things. This material is easy to recycle, and can be thrown in any regular recycling bin.</string>
     <string name="info3">Polyvinyl chloride(PVC) is used in the industry in things like pipes, sides, and flooring. This material is difficult to recycle, and very little is actually collected and recycled in recycling facilities. PVC causes environmental damage, so it is best to limit consumption of this material.</string>
@@ -18,7 +18,7 @@
     <string name="info5">Polypropylene(PP) is used in the industry in things like auto parts, industrial fibres, and food containers. This material is recyclable and usually made into fibers.</string>
     <string name="info6">Polystyrene(PS) is used in lots of daytoday things like plastic utensils, styrofoam, and cafeteria trays. This material is difficult to recycle, and usually cannot be tossed into regular recycling bins. However, there is programs that accept it. More info here: https://www.greenlivingtips.com/articles/Recycling-styrofoam.html</string>
     <string name="info7">This is the name of other plastics(Acrylic, Nylon, Polycarbonate, and Polylactic Acid) which are used in a variety of different objects. Some of the materials inside of the seven category are recyclable. Check to see if it is with your local recycling center.</string>
-    <string name="aboutapp_content">How2Recycle is an application that helps you identify different recyclable materials and how to recycle them. Not all materials are equal, believe it or not! Some materials like cardboard can be recycled in household recycling bins, while others, such as batteries or special plastics, must be taken to special centers. By inputting the recycling code (a number found on most recyclable items) into our app, the app informs you of information about the material as well as where to recycle it.
+    <string name="aboutapp_content">UpCycle is an application that helps you identify different recyclable materials and how to recycle them. Not all materials are equal, believe it or not! Some materials like cardboard can be recycled in household recycling bins, while others, such as batteries or special plastics, must be taken to special centers. By inputting the recycling code (a number found on most recyclable items) into our app, the app informs you of information about the material as well as where to recycle it.
         \n\nThis app was developed by Daniel Oviedo, Sam Marshak, and WriterArtistCoder. The project was supervised by Sebastian Troncoso. We are middle-high school computer science students from The League of Amazing Programmers in San Diego, CA. This app was our community group project, the final project before taking the Java Oracle Exam and graduating from the League of Amazing Programmers (https://jointheleague.org).
     </string>
 

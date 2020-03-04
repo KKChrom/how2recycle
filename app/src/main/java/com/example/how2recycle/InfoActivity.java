@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.nfc.Tag;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.view.View;
@@ -25,8 +26,12 @@ public class InfoActivity extends AppCompatActivity {
 
         TextView textView = findViewById(R.id.desc);
 
-        String val = getIntent().getStringExtra(EXTRA_RECYCLE_NUMBER);
-        switch (val) {
+        if (getSupportActionBar() != null) {
+            getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        }
+
+        String val = getIntent().getStringExtra(EXTRA_RECYCLE_NUMBER);//value from enter data activity
+        switch (val) { //different cases depending on what number was picked,
             case "1":
                 imageView.setImageResource(R.drawable.resincode_1);
                 leftView.setImageResource(R.drawable.oneone);
@@ -82,6 +87,15 @@ public class InfoActivity extends AppCompatActivity {
     public void launchMainActivity(View view) {
         Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        if (item.getItemId() == android.R.id.home) {
+            this.finish();
+            return true;
+        }
+        return super.onOptionsItemSelected(item);
     }
 
 }

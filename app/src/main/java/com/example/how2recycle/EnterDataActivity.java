@@ -1,6 +1,7 @@
 package com.example.how2recycle;
 
 import androidx.appcompat.app.AppCompatActivity;
+
 import android.os.Bundle;
 import android.content.Intent;
 import android.view.MenuItem;
@@ -8,7 +9,9 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
-public class  EnterDataActivity extends AppCompatActivity {
+import java.text.ParseException;
+
+public class EnterDataActivity extends AppCompatActivity {
 
     public static final String EXTRA_RECYCLE_NUMBER =
             "com.example.how2recycle.extra.RECYCLE_NUMBER";
@@ -32,18 +35,22 @@ public class  EnterDataActivity extends AppCompatActivity {
     public void launchInfoActivity(View view) {
         // Create the Intent and add the number input as an extra
         String number = mNumberEditText.getText().toString();
-        int checkingInput = Integer.parseInt(number);
-
-        if (checkingInput < 1 || checkingInput > 7) {
-            Toast.makeText(getApplicationContext(),"Only values between 1 and 7", Toast.LENGTH_SHORT).show();
-        } else{
-            Intent intent = new Intent(this, InfoActivity.class);
-            intent.putExtra(EXTRA_RECYCLE_NUMBER, number);
-            startActivity(intent);
+        mNumberEditText.setText("");
+        try {
+            int checkingInput = Integer.parseInt(number);
+            if (checkingInput < 1 || checkingInput > 7) {
+                Toast.makeText(getApplicationContext(), "Please enter a number between 1 and 7", Toast.LENGTH_SHORT).show();
+            } else {
+                Intent intent = new Intent(this, InfoActivity.class);
+                intent.putExtra(EXTRA_RECYCLE_NUMBER, number);
+                startActivity(intent);
+            }
+        } catch (Exception e) {
+            Toast.makeText(getApplicationContext(), "Please enter a number between 1 and 7", Toast.LENGTH_SHORT).show();
         }
 
-    }
 
+    }
 
 
     @Override
