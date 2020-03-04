@@ -25,8 +25,8 @@ public class InfoActivity extends AppCompatActivity {
 
         TextView textView = findViewById(R.id.desc);
 
-        String val = getIntent().getStringExtra(EXTRA_RECYCLE_NUMBER);
-        switch (val) {
+        String val = getIntent().getStringExtra(EXTRA_RECYCLE_NUMBER);//value from enter data activity
+        switch (val) { //different cases depending on what number was picked,
             case "1":
                 imageView.setImageResource(R.drawable.resincode_1);
                 leftView.setImageResource(R.drawable.oneone);
