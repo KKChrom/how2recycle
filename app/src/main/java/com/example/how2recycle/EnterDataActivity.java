@@ -17,7 +17,7 @@ public class EnterDataActivity extends AppCompatActivity {
             "com.example.how2recycle.extra.RECYCLE_NUMBER";
     private EditText mNumberEditText;
 
-    //Some change
+    //Some
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
