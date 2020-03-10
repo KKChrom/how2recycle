@@ -1,7 +1,6 @@
 package com.example.how2recycle;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 import android.content.Intent;
 import android.view.MenuItem;
@@ -9,7 +8,6 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import java.text.ParseException;
 
 public class EnterDataActivity extends AppCompatActivity {
 
