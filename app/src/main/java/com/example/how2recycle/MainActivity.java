@@ -32,5 +32,10 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, AboutAppActivity.class);
         startActivity(intent);
     }
+    @Override
+    public void onBackPressed() {
+        // code here to show dialog
+        this.finish();
+    }
 
 }

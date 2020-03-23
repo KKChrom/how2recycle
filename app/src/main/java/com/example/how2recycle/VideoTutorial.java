@@ -23,4 +23,9 @@ public class VideoTutorial extends AppCompatActivity {
         videoview.setMediaController(mediaController);
         mediaController.setAnchorView(videoview);
     }
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+    }
 }

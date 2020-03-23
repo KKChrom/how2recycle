@@ -3,6 +3,7 @@ package com.example.how2recycle;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.content.Intent;
+import android.view.Gravity;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
@@ -37,19 +38,22 @@ public class EnterDataActivity extends AppCompatActivity {
         try {
             int checkingInput = Integer.parseInt(number);
             if (checkingInput < 1 || checkingInput > 7) {
-                Toast.makeText(getApplicationContext(), "Please enter a number between 1 and 7", Toast.LENGTH_SHORT).show();
+               Toast toast = Toast.makeText(getApplicationContext(), "Please enter a number between 1 and 7", Toast.LENGTH_SHORT);
+               toast.setGravity(Gravity.CENTER_HORIZONTAL|Gravity.CENTER_VERTICAL,0,100);
+               toast.show();
             } else {
                 Intent intent = new Intent(this, InfoActivity.class);
                 intent.putExtra(EXTRA_RECYCLE_NUMBER, number);
                 startActivity(intent);
             }
         } catch (Exception e) {
-            Toast.makeText(getApplicationContext(), "Please enter a number between 1 and 7", Toast.LENGTH_SHORT).show();
+            Toast toast = Toast.makeText(getApplicationContext(), "Please enter a number between 1 and 7", Toast.LENGTH_SHORT);
+            toast.setGravity(Gravity.CENTER_HORIZONTAL|Gravity.CENTER_VERTICAL,0,100);
+            toast.show();
         }
 
 
     }
-
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
@@ -58,6 +62,10 @@ public class EnterDataActivity extends AppCompatActivity {
             return true;
         }
         return super.onOptionsItemSelected(item);
+    }
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
     }
 }
 
